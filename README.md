@@ -15,13 +15,13 @@ create-react-app APPNAME
 ```
 
 ### Install Dependencies
-* From the Terminal, go to the folder where the React app was created.
+* From the Terminal, go to the folder where the React app was created. The first three commands are for React dependencies and bootstrap templates. Axios is for making RESTful service calls to an API. MDBReact is for the bootstrap icon library (font awesome). React Color is for color pickers. 
 ```
 yarn add react-route-dom
 yarn add react-bootstrap bootstrap
+npm install -D babel-loader @babel/core @babel/preset-env
 npm install axios -- save
 npm install mdbreact --save
-npm install -D babel-loader @babel/core @babel/preset-env
 npm install react-color --save
 ```
 
