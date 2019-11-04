@@ -36,3 +36,12 @@ code .
 ```
 yarn start
 ```
+
+### Example App
+* An example app for create, read, update, delete (CRUD) is available here: https://github.com/didinj/react-hooks-example/tree/master/src
+
+### Build the App for AWS
+* From the terminal, this command will build the app for production.
+```
+npm run build
+```
