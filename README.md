@@ -42,6 +42,20 @@ yarn start
 ### Example App
 An example app for create, read, update, delete (CRUD) is available here: https://github.com/didinj/react-hooks-example/tree/master/src
 
+### Tree for App
+* src
+  * api
+  * components
+  * context
+  * hooks
+  * images
+  * screens
+* App.js
+* index.js
+* serviceWorker.js
+* App.css
+* index.css
+
 ### Dependency Reference
 For reference while building, these are guides related to dependencies:
 * React Bootstrap Components: https://react-bootstrap.github.io/components/alerts
