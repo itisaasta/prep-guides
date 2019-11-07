@@ -67,6 +67,7 @@ A few concepts to grasp to make working with React easier:
 * Context: Enables data storage and reuse across screens. Key data objects will be stored here. The context provider needs to be setup in index.js. The context consumer can be called from any asset that needs it. ``` const { state } = useContext(AuthContext); ```
 * Variables: Screen rerender is triggered when variables are changed through setters. This means no direct variable manipulation for items rendered on screen. So if there is a variable productName, you'll also need setProductName. If you want to show/hide something, you'll need a variable productVisibility, with a setProductVisibility setter. These can be created for you using useState.
 * useState: Stores variable state for a page. Creates the variable and a setter. You can pass in the default value. ``` const [product, setProduct] = useState(''); ```
+* Inputs: All input fields need a value set to a variable and an onChange property that calls the corresponding setter. Failure to do this will fail to store the data or make the field read only.
 * React Bootstrap & React Router: Any links need to reference the React Router component Link in order to work properly. Failing to do so will reload the app, resetting all state. ``` <Nav.Link as={Link} to='/list'>List</Nav.Link> ```
 * The JSX returned to render components can only be one element. If many elements need to be returned, wrap them in ```<></>``` or ```<div></div>```.
 * Common asset flow:
