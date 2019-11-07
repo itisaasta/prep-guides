@@ -43,9 +43,9 @@ yarn start
 An example app for create, read, update, delete (CRUD) is available here: https://github.com/didinj/react-hooks-example/tree/master/src
 
 ### Tree for App
-package.json
-README.md
-.gitignore
+* package.json
+* README.md
+* .gitignore
 * src
   * api
   * components
@@ -53,11 +53,11 @@ README.md
   * hooks
   * images
   * screens
-* App.js
-* index.js
-* serviceWorker.js
-* App.css
-* index.css
+ * App.js
+ * index.js
+ * serviceWorker.js
+ * App.css
+ * index.css
 
 ### Dependency Reference
 For reference while building, these are guides related to dependencies:
