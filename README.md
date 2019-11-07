@@ -60,6 +60,15 @@ An app can be framed using the following structure:
 * README.md - The how to guide for the product and how it was built
 * .gitignore - Things not to load to the GitHub repo
 
+### Key React Concepts
+A few concepts to grasp to make working with React easier:
+* Code: The code you write is JSX, stored in JavaScript files. The return statement is what gets displayed on the screen. It behaves very much like HTML with custom properties. The properties can be anything: examples include onChange, onSubmit, and placeholder.
+* properties/props: Properties pass from parent to child. Passing props enables composing screens of reusable components.
+* Context: Enables data storage and reuse across screens. Key data objects will be stored here.
+* Variables: Screen rerender is triggered when variables are changed through setters. This means no direct variable manipulation for items rendered on screen. So if there is a variable productName, you'll also need setProductName. If you want to show/hide something, you'll need a variable productVisibility, with a setProductVisibility setter. These can be created for you using useState.
+* useState: Stores variable state for a page. Creates the variable and a setter. You can pass in the default value. ``` const [product, setProduct] = useState('')```
+* React Bootstrap & React Router: Any links need to reference the React Router component Link in order to work properly. Failing to do so will reload the app, resetting all state. ``` <Nav.Link as={Link} to='/list'>List</Nav.Link> ```
+
 ### Dependency Reference
 For reference while building, these are guides related to dependencies:
 * React Bootstrap Components: https://react-bootstrap.github.io/components/alerts
