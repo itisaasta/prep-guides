@@ -43,21 +43,22 @@ yarn start
 An example app for create, read, update, delete (CRUD) is available here: https://github.com/didinj/react-hooks-example/tree/master/src
 
 ### Tree for App
+An app can be framed using the following structure:
 * src
-  * api
-  * components
-  * context
-  * hooks
-  * images
-  * screens
+  * api - API definitions
+  * components - Reusable pieces, like a Search Bar
+  * context - Data objects like Auth, Products, etc.
+  * hooks - API calls
+  * images - Image assets
+  * screens - Display of components
   * App.js
   * index.js
   * serviceWorker.js
   * App.css
   * index.css
-* package.json
-* README.md
-* .gitignore
+* package.json - All dependencies for the product
+* README.md - The how to guide for the product and how it was built
+* .gitignore - Things not to load to the GitHub repo
 
 ### Dependency Reference
 For reference while building, these are guides related to dependencies:
