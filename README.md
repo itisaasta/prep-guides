@@ -70,12 +70,12 @@ A few concepts to grasp to make working with React easier:
 * React Bootstrap & React Router: Any links need to reference the React Router component Link in order to work properly. Failing to do so will reload the app, resetting all state. ``` <Nav.Link as={Link} to='/list'>List</Nav.Link> ```
 * The JSX returned to render components can only be one element. If many elements need to be returned, wrap them in ```<></>``` or ```<div></div>```.
 * Common asset flow:
- * Import Dependencies
- * Call Contexts Needed
- * Call Hooks Needed
- * Setup State
- * Reusable Functions
- * Return JSX to be Displayed
+  * Import Dependencies
+  * Call Contexts Needed
+  * Call Hooks Needed
+  * Setup State
+  * Reusable Functions
+  * Return JSX to be Displayed
 
 ### Dependency Reference
 For reference while building, these are guides related to dependencies:
